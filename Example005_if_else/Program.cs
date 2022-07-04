@@ -1,12 +1,8 @@
-﻿Console.Write("Введите имя пользователя: ");
-string username = Console.ReadLine();
+﻿
+double santimetrs = 178;
+double inn = 0.39;
+double result = santimetrs * inn;
 
-if(username.ToLower() == "маша")  
-{
-    Console.WriteLine("Ура, это же МАША!");
-}
-else
-{
-    Console.Write("Привет, ");
-    Console.WriteLine(username);
-}
+    
+    Console.Write(result);
+    Console.Write(" дюймов");
